@@ -1,0 +1,4 @@
+spacy==3.0.6
+gensim==4.0.1
+streamlit==0.80.0
+spacy-streamlit==1.0.1
