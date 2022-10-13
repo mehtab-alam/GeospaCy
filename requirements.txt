@@ -5,3 +5,4 @@ spacy-streamlit==1.0.1
 quantities==0.13.0
 folium==0.11.0
 streamlit-folium>=0.3
+geopandas==0.11.1
