@@ -2,5 +2,5 @@ spacy==3.0.6
 streamlit==0.80.0
 spacy-streamlit==1.0.1
 quantities==0.13.0
-click==8.1.3
-typer==0.4.1
+click==8.0.0
+typer==0.4.0
