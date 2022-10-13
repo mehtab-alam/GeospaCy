@@ -1,5 +1,4 @@
 spacy==3.3.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.0/en_core_web_sm-3.4.0.tar.gz#egg=en_core_web_sm
 streamlit==1.11.1
 spacy-streamlit==1.0.1
 quantities==0.13.0
