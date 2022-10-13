@@ -3,3 +3,5 @@ en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_
 streamlit==1.11.1
 spacy-streamlit==1.0.1
 quantities==0.13.0
+folium==0.11.0
+streamlit-folium>=0.3
