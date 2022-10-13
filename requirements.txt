@@ -1,8 +1,5 @@
-pip==22.2.2
-click==7.0.0
-typer==0.3.2
-spacy==3.0.6
-streamlit==0.80.0
+spacy==3.3.0
+streamlit==1.11.1
 spacy-streamlit==1.0.1
 quantities==0.13.0
 
