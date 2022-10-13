@@ -1,5 +1,5 @@
-spacy==3.3.0
-en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.0.0/en_core_web_md-3.0.0.tar.gz
+spacy==3.0.6
+en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.2.0/en_core_web_md-2.2.0.tar.gz
 streamlit==1.11.1
 spacy-streamlit==1.0.1
 quantities==0.13.0
