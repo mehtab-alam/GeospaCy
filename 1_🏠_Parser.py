@@ -125,9 +125,10 @@ def set_selected_entities(doc):
     return doc
 
 def extract_spatial_entities(text):
+    nlp = en_core_web_md.load()
     try:
         #nlp = spacy.load(model)
-        nlp = en_core_web_md.load()
+        
         nlp.add_pipe("spatial_pipeline", after="ner")
         
         doc = nlp(text)
