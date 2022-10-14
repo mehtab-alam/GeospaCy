@@ -13,7 +13,7 @@ import folium
 from utils import geoutil
 from disambiguation import disambiguate
 import spacy
-
+import en_core_web_md
 
 from streamlit.components.v1 import html
 
@@ -93,7 +93,8 @@ def set_selected_entities(doc, types):
     return doc
 
 def extract_spatial_entities(model,text, types):
-    nlp = spacy.load(model)
+    #nlp = spacy.load(model)
+    nlp = en_core_web_md.load()
     nlp.add_pipe("spatial_pipeline", after="ner")
     
     doc = nlp(text)

@@ -14,7 +14,7 @@ from utils import geoutil
 from disambiguation import disambiguate
 import spacy
 from db import poly_db_util
-
+import en_core_web_md
 #BASE_URL = "http://localhost:8080/"
 
 geojson = ""
@@ -68,7 +68,8 @@ def set_selected_entities(doc, types):
     return doc
 
 def extract_spatial_entities(model,text, types):
-    nlp = spacy.load(model)
+    #nlp = spacy.load(model)
+    nlp = en_core_web_md.load()
     nlp.add_pipe("spatial_pipeline", after="ner")
     
     doc = nlp(text)
