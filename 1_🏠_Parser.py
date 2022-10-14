@@ -6,7 +6,7 @@ from PIL import Image
 import base64
 import sys
 import pandas as pd
-
+import en_core_web_md
 
 colors = {'GPE': "#43c6fc", "LOC": "#fd9720", "RSE":"#a6e22d"}
 options = {"ents": ['GPE', 'LOC', "RSE"], "colors": colors}
@@ -126,7 +126,8 @@ def set_selected_entities(doc):
 
 def extract_spatial_entities(text):
     try:
-        nlp = spacy.load(model)
+        #nlp = spacy.load(model)
+        nlp = en_core_web_md.load()
         nlp.add_pipe("spatial_pipeline", after="ner")
         
         doc = nlp(text)
