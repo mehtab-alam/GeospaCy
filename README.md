@@ -23,6 +23,13 @@ pip install streamlit
 pip install spacy-streamlit
 ```
 
+5. Install GeoPandas
+```sh
+pip install geopandas
+```
+
+§. 
+
 ## How to run the web application
 
 ```sh
