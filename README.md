@@ -14,11 +14,11 @@ pip install spacy
 ```sh
 pip install gensim
 ```
-3. Install streamit library for running GeoX web application 
+3. Install streamit library for running web application 
 ```sh
 pip install streamlit
 ```
-4. Install spacy-streamlit for display named entities (RSI) in the text 
+4. Install spacy-streamlit for display named entities (spatRE) in the text 
 ```sh
 pip install spacy-streamlit
 ```
