@@ -27,8 +27,16 @@ pip install spacy-streamlit
 ```sh
 pip install geopandas
 ```
+6.  Install folium library for manipulating your data in Python, then visualize it in a Leaflet map via folium.
 
-§. 
+```sh
+pip install folium
+```
+7. Install streamlit-folium library to visualize Leaflet map in streamlit web application
+
+```sh
+pip install streamlit-folium
+``` 
 
 ## How to run the web application
 
