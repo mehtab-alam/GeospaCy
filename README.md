@@ -33,5 +33,5 @@ pip install geopandas
 ## How to run the web application
 
 ```sh
-streamlit run App.py
+streamlit run 1_🏠_Parser.py
 ```
