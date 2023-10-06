@@ -43,3 +43,18 @@ pip install streamlit-folium
 ```sh
 streamlit run 1_🏠_Parser.py
 ```
+
+## ![Cite this work](https://github.com/mehtab-alam/GeospaCy/)
+
+```latex
+@software{syed_geospacy_2023,
+    author = {Syed, Mehtab Alam; Aresevska, Elena; Roche, Mathieu and Teisseire, Maguelonne},
+    doi = {10.5281/zenodo.8415401},
+    license = {GNU GPLv3},
+    title = {{GeospaCy}},
+    url = { https://github.com/mehtab-alam/GeospaCy/},
+    version = {1.0.0},
+    year = {2023}
+}
+```
+
