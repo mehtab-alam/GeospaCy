@@ -48,7 +48,7 @@ streamlit run 1_🏠_Parser.py
 
 ```latex
 @software{syed_geospacy_2023,
-    author = {Syed, Mehtab Alam; Aresevska, Elena; Roche, Mathieu and Teisseire, Maguelonne},
+    author = {Syed, Mehtab Alam and Arsevska, Elena and Roche, Mathieu and Teisseire, Maguelonne},
     doi = {10.5281/zenodo.8415401},
     license = {GNU GPLv3},
     title = {{GeospaCy}},
