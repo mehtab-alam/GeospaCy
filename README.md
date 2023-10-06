@@ -44,7 +44,7 @@ pip install streamlit-folium
 streamlit run 1_🏠_Parser.py
 ```
 
-## ![Cite this work](https://github.com/mehtab-alam/GeospaCy/)
+## [Cite this work](https://github.com/mehtab-alam/GeospaCy/)
 
 ```latex
 @software{syed_geospacy_2023,
