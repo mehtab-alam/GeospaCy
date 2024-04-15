@@ -48,7 +48,7 @@ streamlit run 1_🏠_Parser.py
 
 ```latex
 @inproceedings{mehtab-alam-etal-2024-geospacy,
-    title = "{G}eospa{C}y: A tool for extraction and geographical referencing of spatial expressions in textual data",
+    title = "GeospaCy: A tool for extraction and geographical referencing of spatial expressions in textual data",
     author = "Mehtab Alam, Syed  and
       Arsevska, Elena  and
       Roche, Mathieu  and
