@@ -47,14 +47,21 @@ streamlit run 1_🏠_Parser.py
 ## [Cite this work](https://github.com/mehtab-alam/GeospaCy/)
 
 ```latex
-@software{syed_geospacy_2023,
-    author = {Syed, Mehtab Alam and Arsevska, Elena and Roche, Mathieu and Teisseire, Maguelonne},
-    doi = {10.5281/zenodo.8415401},
-    license = {GNU GPLv3},
-    title = {{GeospaCy}},
-    url = { https://github.com/mehtab-alam/GeospaCy/},
-    version = {1.0.0},
-    year = {2023}
+@inproceedings{mehtab-alam-etal-2024-geospacy,
+    title = "{G}eospa{C}y: A tool for extraction and geographical referencing of spatial expressions in textual data",
+    author = "Mehtab Alam, Syed  and
+      Arsevska, Elena  and
+      Roche, Mathieu  and
+      Teisseire, Maguelonne",
+    editor = "Aletras, Nikolaos  and
+      De Clercq, Orphee",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
+    month = mar,
+    year = "2024",
+    address = "St. Julians, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-demo.13",
+    pages = "115--126",
 }
 ```
 
